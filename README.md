@@ -12,9 +12,9 @@
   <h3 align="center"></h3>
 
   <p align="center">
-    Your everyday READEME file for the SG Money Lender project.
+    Your everyday READEME file for the Peach project.
     <br />
-    This is a sample website created for a CS2024 project in Nanyang Technological University.<br>
+    This is a sample website created for a CS2024 Final Assignment in Nanyang Technological University.<br>
     <a href="#"_blank"><strong>Click here to visit the website</strong></a>
     <br />
     <br />
