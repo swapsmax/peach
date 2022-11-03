@@ -46,7 +46,7 @@ This is not a real website.
 
 ### Built With (TO BE UPDATED)
 
-Here is a list of softwares and languages used in the development of the web app.
+Here is a list of softwares, languages and frameworks used in the development of the web app.
 
 * Visual Studio Code
 * HTML
