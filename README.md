@@ -35,10 +35,10 @@
 Peach is a website for an aesthetic clinic that offers a range of affordable and safe treatments for your face and body in Singapore.
 This is not a real website.
 
-<b>Project Manager:</b> Swapnil <br>
-<b>Copywriter:</b> Jeremy <br>
-<b>Designer:</b> Gideon <br>
+<b>Project Manager & Developer:</b> Swapnil <br>
 <b>Developer:</b> Jian Liang <br>
+<b>Designer:</b> Jeremy <br>
+<b>Copywriter:</b> Gideon <br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
