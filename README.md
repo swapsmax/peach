@@ -12,7 +12,7 @@
   <h3 align="center"></h3>
 
   <p align="center">
-    Your everyday READEME file for the Peach project.
+    Your everyday README file for the Peach project.
     <br />
     This is a sample website created for a CS2024 Final Assignment in Nanyang Technological University.<br>
     <a href="#"_blank"><strong>Click here to visit the website</strong></a>
@@ -35,10 +35,10 @@
 Peach is a website for an aesthetic clinic that offers a range of affordable and safe treatments for your face and body in Singapore.
 This is not a real website.
 
-<b>Project Manager:</b> Swapnil <br>
-<b>Copywriter:</b> Jeremy <br>
-<b>Designer:</b> Gideon <br>
+<b>Project Manager & Developer:</b> Swapnil <br>
 <b>Developer:</b> Jian Liang <br>
+<b>Designer:</b> Jeremy <br>
+<b>Copywriter:</b> Gideon <br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -46,7 +46,7 @@ This is not a real website.
 
 ### Built With (TO BE UPDATED)
 
-Here is a list of softwares and languages used in the development of the web app.
+Here is a list of softwares, languages and frameworks used in the development of the web app.
 
 * Visual Studio Code
 * HTML
