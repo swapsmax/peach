@@ -39,7 +39,7 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-392x116.png" alt="" width="196" height="58"/><img class="brand-logo-light" src="images/logo-default-392x116.png" alt="" width="196" height="58"/></a>
+                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/header_logo.png" alt="" width="196" height="58"/><img class="brand-logo-light" src="images/logo-default-392x116.png" alt="" width="196" height="58"/></a>
                   </div>
                 </div>
                 <div class="rd-navbar-main-element">
@@ -88,7 +88,7 @@
           
               <h5>Fill Up Our Appointment Booking Form</h5>
               <div class="divider-lg"></div>
-              <p>Please submit this form to book an appointment with us and we will get back to your with a confirmation via email. <br class="d-none d-lg-inline">Alternatively, you can also give us a call or visit our salon personally.</p>
+              <p>Please submit this form with your intended date and time to book an appointment with us and we will get back to your with a confirmation via email. <br class="d-none d-lg-inline">Alternatively, you can also give us a call or visit our salon personally.</p>
               <!-- RD Mailform-->
               <form class="rd-mailform text-left rd-form" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
                 <div class="row row-30">
@@ -118,13 +118,38 @@
                   </div>
                   <div class="col-12">
                     <div class="form-wrap">
-                      <label class="form-label" for="contact-message">Message</label>
+                      <select name="how" class="form-dropdown" for="contact-treatment" required>
+                        <option value="">Select treatment to be booked?</option>
+                        <option value="skin">Skin Treatment</option>
+                        <option value="skin">Skin Treatment</option>
+                        <option value="facial">Facial Treatment</option>
+                        <option value="facial">Facial Treatment</option>
+                        <option value="body">Body Treatment</option>
+                        <option value="body">Body Treatment</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-wrap">
+                      <label class="form-label" for="contact-date"></label>
+                      <input class="form-input" id="contact-date" type="text" onfocus="(this.type = 'date')" name="date" placeholder="Intended Appointment Date" data-constraints="@Date @Required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-wrap">
+                      <label class="form-label" for="contact-date"></label>
+                      <input class="form-input" id="contact-time" type="text" onfocus="(this.type = 'time')" name="time" placeholder="Intended Appointment Time" data-constraints="@Time @Required">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-wrap">
+                      <label class="form-label" for="contact-message">Remarks</label>
                       <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
                     </div>
                   </div>
                 </div>
                 <div class="form-button group-sm text-left">
-                  <button class="button button-primary" type="submit">Send message</button>
+                  <button class="button button-primary" type="submit">Send Booking Request</button>
                 </div>
               </form>
             

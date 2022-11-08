@@ -39,7 +39,7 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-392x116.png" alt="" width="196" height="58"/><img class="brand-logo-light" src="images/logo-default-392x116.png" alt="" width="196" height="58"/></a>
+                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/header_logo.png" alt="" width="196" height="58"/><img class="brand-logo-light" src="images/logo-default-392x116.png" alt="" width="196" height="58"/></a>
                   </div>
                 </div>
                 <div class="rd-navbar-main-element">
@@ -191,13 +191,23 @@
                   </div>
                   <div class="col-12">
                     <div class="form-wrap">
+                      <select name="how" class="form-dropdown" for="contact-treatment" required>
+                        <option value="">Which treatment would you like to enquire about?</option>
+                        <option value="skin">Skin Treatment</option>
+                        <option value="facial">Facial Treatment</option>
+                        <option value="body">Body Treatment</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-wrap">
                       <label class="form-label" for="contact-message">Message</label>
                       <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
                     </div>
                   </div>
                 </div>
                 <div class="form-button group-sm text-left">
-                  <button class="button button-primary" type="submit">Send message</button>
+                  <button class="button button-primary" type="submit">Send Enquiry</button>
                 </div>
               </form>
             
