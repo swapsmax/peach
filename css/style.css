@@ -456,6 +456,7 @@ details {
 	align-items: center;
 	font-weight: 500;
 	cursor: pointer;
+	font-size: 16px;
   }
   
   summary:focus {
