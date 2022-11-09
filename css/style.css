@@ -306,6 +306,93 @@ html p a:hover {
 	text-decoration: none;
 }
 
+
+/* 
+*
+* FAQ
+*/
+
+details {
+	width: 75%;
+	min-height: 5px;
+	max-width: 700px;
+	padding: 45px 70px 45px 45px;
+	margin: 0 auto;
+	position: relative;
+	font-size: 22px;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 15px;
+	box-sizing: border-box;
+	transition: all .3s;
+  }
+  
+  details + details {
+	margin-top: 20px;
+  }
+  
+  details[open] {
+	min-height: 50px;
+	background-color: #E3A2A1;
+	color:white;
+	box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+	border-radius: 15px;
+  }
+  
+  details p {
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+  }
+  
+  summary {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 500;
+	cursor: pointer;
+  }
+  
+  summary:focus {
+	outline: none;
+	
+  }
+  
+  summary:focus::after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: 0 0 0 2px #E3A2A1;
+	border-radius: 15px;
+  }
+  
+  summary::-webkit-details-marker {
+	display: none
+  }
+  
+  .control-icon {
+	fill: #E3A2A1;
+	transition: .3s ease;
+	pointer-events: none;
+  }
+  
+  .control-icon-close {
+	display: none;
+	fill: white;
+  }
+  
+  details[open] .control-icon-close {
+	display: initial;
+	transition: .3s ease;
+  }
+  
+  details[open] .control-icon-expand {
+	display: none;
+  }
+
 /*
 *
 * Typography
