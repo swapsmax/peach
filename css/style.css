@@ -2763,7 +2763,7 @@ input:-webkit-autofill ~ .form-validation {
 	border: 1px solid #e1e1e1;
 }
 
-.form-dropdown:.focus{
+.form-dropdown:focus{
 	outline: 0;
 }
 
