@@ -316,12 +316,12 @@ details {
 	width: 75%;
 	min-height: 5px;
 	max-width: 700px;
-	padding: 45px 70px 45px 45px;
+	padding: 25px 70px 25px 35px;
 	margin: 0 auto;
 	position: relative;
 	font-size: 22px;
 	border: 1px solid rgba(0,0,0,.1);
-	border-radius: 15px;
+	border-radius: 250px;
 	box-sizing: border-box;
 	transition: all .3s;
   }
@@ -334,8 +334,8 @@ details {
 	min-height: 50px;
 	background-color: #E3A2A1;
 	color:white;
-	box-shadow: 2px 2px 20px rgba(0,0,0,.2);
-	border-radius: 15px;
+	
+	border-radius: 25px;
   }
   
   details p {
@@ -365,8 +365,9 @@ details {
 	position: absolute;
 	top: 0;
 	left: 0;
-	box-shadow: 0 0 0 2px #E3A2A1;
-	border-radius: 15px;
+	transition: all .3s;
+	outline: none;
+	border-radius: 25px;
   }
   
   summary::-webkit-details-marker {
