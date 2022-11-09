@@ -36,8 +36,8 @@ Peach is a website for an aesthetic clinic that offers a range of affordable and
 This is not a real website.
 
 <b>Project Manager & Developer:</b> Swapnil <br>
-<b>Developer:</b> Jian Liang <br>
-<b>Designer:</b> Jeremy <br>
+<b>Developer:</b> Jeremy <br>
+<b>Designer:</b> Jian Liang <br>
 <b>Copywriter:</b> Gideon <br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
